@@ -11,7 +11,7 @@ int main()
 	int sock = socket(AF_INET, SOCK_STREAM, 0);
 	if (sock == -1)
 	{
-		printf("error, idi nahui\n");
+		printf("error\n");
 		return -1;
 	}
 
